@@ -50,7 +50,7 @@ namespace LP3parcial2HEO
         {
             if(bandera == true)
             {
-                string path = $"{Server.MapPath(".")}/files/{nombre}"; // nombre es el nombre de la variable que almacena sesion
+                string path = $"{Server.MapPath(".")}/files/{nombre}"; // nombre es el nombre de la variable que almacena session
                 if (!Directory.Exists(path))
                 {
                     Directory.CreateDirectory(path);
